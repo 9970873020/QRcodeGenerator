@@ -1,0 +1,97 @@
+.App{
+    display:flex;
+    
+    border: 80px solid rgb(41, 95, 41);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+    height: 672px;
+    background-color: rgb(226, 245, 245);
+    
+  }
+  h1{
+    font-family: 'Lilly', sans-serif;
+    font-size: 50px;
+  }
+  .gen input{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 5px;
+    
+  }
+  button{
+    position: relative;
+    height: 38px;
+    width: 100px;
+    top: -2px;
+    font-size: 18px;
+    border: none;
+    color: whitesmoke;
+    background-color: forestgreen;
+    box-shadow: 2px 2px 5px rgb(74, 182, 74);
+    cursor: pointer;
+  }
+  button:active{
+    box-shadow: none;
+  }
+  .Slider{
+    position: relative;
+    top:  250px;
+    left: 370px;
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+  }
+  .output-box{
+    position: relative;
+    left: 430px;
+    bottom: 300px;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 40px;
+    
+  }
+  .btn{
+    position: relative;
+    top: -142px;
+    left: 400px;
+    width: 180px;
+    
+
+  }
+  .btn2{
+    position: relative;
+    width: 180px;
+    top: -142px;
+    left: 440px;
+    background-color: rgb(188, 204, 132);
+  }
+  .anc{
+    text-decoration: none;
+  }
+  .acc{
+    position: fixed;
+    right:300px;
+    top: 150px;
+    width: 600px;
+  }
+  .type{
+    padding-left: 20px;
+    
+  } 
+  input{
+    width: 550px;
+    height: 40px;
+  }
+  .color{
+    margin-left: 5px;
+  }
+  
+  
